@@ -1,0 +1,26 @@
+{
+    "name": "webcoast/character-counter",
+    "description": "Show a character counter below text fields in TYPO3 CMS",
+    "keywords": ["typo3", "cms", "input", "textarea", "rte", "character", "count", "counter", "seo"],
+    "type": "typo3-cms-extension",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-release/1.0": "1.0.x-dev"
+        },
+        "typo3/cms": {
+            "extension-key": "character_counter"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "WEBcoast\\CharacterCounter\\": "Classes/"
+        }
+    },
+    "require": {
+        "php": "^7.2.0",
+        "typo3/cms-core": "^v10.4.6"
+    }
+}
